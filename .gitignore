@@ -1,0 +1,30 @@
+.env
+.env.local
+.env.*.local
+__pycache__/
+*.pyc
+.DS_Store
+
+# Streamlit/local app secrets
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Local vector databases and backups
+vector_db/
+vector_db_backup_*/
+vector_db_incompatible_backup_*/
+vector_db_backup_final_refresh_*/
+vector_db_backup_scraped_refresh_*/
+
+# Generated local outputs
+docs_index.json
+chunks/
+raw_text/
+clean_text/
+scraped_docs/
+public_portfolio_bundle/
+logs/
+tmp/
+
+# Temporary Office files
+~$*
